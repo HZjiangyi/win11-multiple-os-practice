@@ -85,7 +85,7 @@ lz用了上面第一个教程里的VMware Workstation和Unlocker,将安装过程
 
 + 若卡顿，除了上面这些教程里提到的优化方法，也可以尝试通过减小分辨率来缓解；还可以给虚拟机分配更多的内存和CPU核心来提高表现（系统内的“活动监视器”里可以查看资源的占用情况）。  
   > 注：虚拟机的硬件配置可以在关机后直接在软件内修改，无需再新建
-+ 如果安装了macOS 13 Ventura后无法联网，看[这篇教程](https://sysin.org/blog/macos-installer-damaged/)修改 .vmx配置文件即可。
++ 如果安装了macOS 13 Ventura后无法联网，看[这篇教程](https://intozoom.com/fix-the-error-you-are-not-connected-to-the-internet-on-macos-ventura-on-vmware/#more-4001)修改 .vmx配置文件即可。
 + lz发现如果用了EasyConnect连rvpn，虚拟机会上不了网，关掉之后就好了。
 
 一般来说，虚拟机的网络设置用默认的（NAT）不会有啥问题。系统安装完成之后，建议装下VMWare Tools（具有开启全屏显示、文件拖拽等功能），教程可看以下两篇。
